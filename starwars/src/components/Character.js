@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import logo from '../images/sabers.png';
 
 const CharacterCard = styled.div`
-  width: 500px;
+  width: 480px;
   padding: 1rem 0;
   margin: 1rem 0;
   background: #dbdac9;
