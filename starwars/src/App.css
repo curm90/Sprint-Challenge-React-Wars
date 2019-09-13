@@ -1,8 +1,10 @@
 .App {
   text-align: center;
+  font-family: 'Varela Round', sans-serif;
 }
+
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: #474545;
+  text-shadow: 1px 1px 5px #8b8a8a;
+  font-size: 3rem;
 }
-/* write your parent styles in here for your App.js */
