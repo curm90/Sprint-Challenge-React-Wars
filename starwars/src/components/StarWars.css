@@ -28,3 +28,10 @@ button:active {
   transform: translateY(1px);
   box-shadow: none;
 }
+
+.page {
+  font-size: 1.6rem;
+  color: #d6d6d6;
+  margin: 0;
+  text-shadow: 1px 1px 2px gray;
+}

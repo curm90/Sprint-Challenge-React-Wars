@@ -40,6 +40,12 @@ export const Character = ({ data }) => {
         {data.hair_color}
       </p>
       <p>
+        <span>Eye Color: {data.eye_color}</span>
+      </p>
+      <p>
+        <span>Gender: {data.gender}</span>
+      </p>
+      <p>
         <span>Weight: </span>
         {data.mass} Kg
       </p>
