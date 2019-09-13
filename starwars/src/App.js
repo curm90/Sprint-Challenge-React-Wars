@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Star Wars</h1>
+      <h1 className="Header">React Wars</h1>
       <CharacterList data={characters} />
       <div className="button-container">
         <button onClick={() => prevButton()} className="prevBtn">
