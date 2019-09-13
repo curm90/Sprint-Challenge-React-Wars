@@ -33,11 +33,11 @@ const App = () => {
       <h1 className="Header">React Wars</h1>
       <CharacterList data={characters} />
       <div className="button-container">
-        <button onClick={() => prevButton()} className="prevBtn">
+        <button onClick={prevButton} className="prevBtn">
           prev
         </button>
         <p className="page">Page {currentPage}</p>
-        <button onClick={() => nextButton()} className="nextBtn">
+        <button onClick={nextButton} className="nextBtn">
           next
         </button>
       </div>
