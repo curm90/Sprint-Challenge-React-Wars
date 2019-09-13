@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import logo from '../images/sabers.png';
 
 const CharacterCard = styled.div`
   width: 500px;
@@ -23,11 +24,17 @@ const CharacterCard = styled.div`
   h2 {
     color: #232322;
     font-size: 2rem;
+    padding-bottom: 1rem;
   }
 
   p {
     font-size: 1.3rem;
     color: #232322;
+  }
+
+  .icon {
+    height: 50px;
+    padding-top: 3rem;
   }
 `;
 
@@ -57,6 +64,7 @@ export const Character = ({ data }) => {
         <span>DOB: </span>
         {data.birth_year}
       </p>
+      <img className="icon" src={logo} alt="lightsabers"></img>
     </CharacterCard>
   );
 };
