@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
+import './components/StarWars.css';
 import { CharacterList } from './components/CharacterList';
 
 const App = () => {
