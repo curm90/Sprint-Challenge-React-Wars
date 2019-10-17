@@ -1,0 +1,37 @@
+.button-container {
+  display: flex;
+  margin: 2rem 0;
+  justify-content: space-around;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 3px #929292;
+  border: none;
+  cursor: pointer;
+  background: #d1ce9c;
+  color: black;
+  outline: none;
+  transition: ease-in-out 0.2s;
+  font-family: 'Varela Round', sans-serif;
+}
+
+button:hover {
+  transition: ease-in-out 0.2s;
+  background: #d8d145;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.page {
+  font-size: 1.6rem;
+  color: #d6d6d6;
+  margin: 0;
+  text-shadow: 1px 1px 2px gray;
+}
